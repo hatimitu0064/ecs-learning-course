@@ -2,7 +2,7 @@ name: Web API Deploy Pipeline
 on:
   push:
     paths:
-      - '.github/workflow/**'
+      - '.github/workflows/**'
       - 'cicd-section/api/**'
 
 env:
